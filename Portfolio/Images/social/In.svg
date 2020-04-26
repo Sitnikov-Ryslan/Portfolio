@@ -1,0 +1,11 @@
+<svg id="In" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41" height="41" viewBox="0 0 41 41">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #007bb6;
+      }
+    </style>
+  </defs>
+  <rect id="bg" class="cls-1" width="41" height="41"/>
+  <image id="in-2" data-name="in" x="10" y="10" width="21" height="20" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAUCAYAAABiS3YzAAAA5UlEQVQ4jd2U0RHBQBRFzzMK0AEl6AAdUAEt6EAHqAAd6EBUgAroABVcs5I1sWKI5cedyUfysmff23tnkdSQtFGqo6QBsZI006MaMcwKUASoxUBdp92gy00UELAM3AbccwCWZnaKBX9dlrndv/to1iGdYAw0c6WtmQ0ljbI13o8lMDWzhGzhKLTeEwpqqydp8brGsVpysvaLutswKQt1cibOgXNwBF6DT6A9f3aSJsA+yHWrUhK4vZmRGuq6TsKfykKL8ruLhb6l/4HWfwH96F79yfgu/A85y2kBrHPv7moMdb8eDhdox65ndM5ELAAAAABJRU5ErkJggg=="/>
+</svg>

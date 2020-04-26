@@ -1,0 +1,11 @@
+<svg id="Be" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41" height="41" viewBox="0 0 41 41">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1869ff;
+      }
+    </style>
+  </defs>
+  <rect id="bg" class="cls-1" width="41" height="41"/>
+  <image id="be-2" data-name="be" x="7" y="13" width="27" height="17" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAARCAYAAAAsT9czAAABcUlEQVQ4jZ1V7U3DUAw8SwwQNsgIYYMyAWGCdgNgAsoEHQE2SDpBskHDBOkGZINDLu9FjpVPLOVH/Jw793x+FZInABnmowHwLSJfC3WzoWQVgN3K+iuARxG52iTJ3RSGiBxtYcVtUXhAksepYl9oyaoRoJzkzyTAhrhbKhCRkqTO9H2ujmQKIAeQhJRKXYpIt5psJPy8ktDI60jtieSziNRjZEkYtg3t+MW8v7nzwpmjMe7WRnRMDyLSbDXIoHuSB3N2CVLGM2uaNia3uvFgAFuTz72G7jzze9aMyJQEGa1Uumu1c2btyYKc0TAffmZdHKbrUHOt+XA/sgGLF8MqN6p9STYGMPWu1M4XYOpVZMHeg/tTryySnfm15c1xw+/S0JhGs9b6ewOqcY4EAKJh4k51psHKkN3/x42XAHQDdFeZuk/x9LH5v8t4I1kRiYxUmbO4j89e+rA3/TJOhJqh9n8thlAb0D17MnLr/M69uwH8AmPWPLwryTyBAAAAAElFTkSuQmCC"/>
+</svg>
