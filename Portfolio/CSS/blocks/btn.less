@@ -9,21 +9,21 @@
 	text-transform: uppercase;
 	text-align: center;
 	text-decoration: none;
-	min-width: 170px;
 	border: 1px solid @gray;
-	border-radius: 30px;
+	border-radius: 1.8em;
 	background: none;
 	line-height: 1.1;
-	padding: 1.1rem 1.8rem;
+	padding: 1.05em 1.7em;
 	cursor: pointer;
 	transition: background-color 0.1s linear, color 0.1s linear,
-	box-shadow 0.1s linear;	
+	box-shadow 0.1s linear, border-color 0.1s linear;	
 	
 	&:focus {
 		outline: none;
 	}
 
 	&:hover {
+		border-color: @black;
 		background: @black;
 		color: #fff;
 		box-shadow: 2px 2px 10px fade(#000, 24%);
@@ -31,5 +31,13 @@
 
 	+ .btn {
 		margin-left: 1rem;
+	}
+
+	&--sm {
+		padding: 0.7em 1.1em;
+		font-size: 0.94rem;
+		font-weight: bold;
+		border-width: 2px;
+		min-width: 0;
 	}
 }
