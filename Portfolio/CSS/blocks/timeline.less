@@ -1,0 +1,76 @@
+// main: ../style.less
+
+.timeline {
+	margin: 4.2rem auto;
+	display: flex;
+	max-width: 768px;
+	position: relative;
+	
+	&:before {
+		content: "";
+		width: 1px;
+		height: 100%;
+		background: @black;
+		position: absolute;
+		top: 0;
+		left: 50%;
+	}
+}
+
+.timeline__col {
+	width: 50%;
+	
+	&--left {
+		text-align: right;
+		padding-right: 3.2rem;
+	}
+
+	&--right {
+		padding-left: 3.2rem;
+	}
+}
+
+.timeline__title {
+	font-size: 1.2rem;
+	color: @black;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 2.6rem;
+}
+
+.timeline__item {
+	margin-bottom: 2.6rem;
+	
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.timeline__date {
+	display: block;
+	text-decoration: underline;
+	font-size: 0.94rem;
+	color: @black;
+	margin-bottom: 0.8rem;
+}
+
+.timeline__subtitle {
+	font-size: 1.06rem;
+	color: @black;
+	font-weight: bold;
+	margin-bottom: 0.2rem;
+}
+
+.timeline__position {
+	font-size: 0.94rem;
+	color: @black;
+	font-style: italic;
+}
+
+.timeline__text {
+	font-size: 0.8rem;
+	color: @gray;
+	font-weight: lighter;
+	line-height: 1.5;
+	margin-top: 0.8rem;
+}

@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Portfolio</title>
 </head>
-<body>
+<body class="no-scroll">
 	<header class="header">
 		<div class="container">
 			<div class="header__inner">
@@ -337,5 +337,156 @@
 			</div>
 		</div>
 	</footer>
+
+
+	<div class="modal" style="display: none;">
+		<div class="modal__dialog">
+			<button class="modal__close" type="button">
+				<img src="Images/close.svg" alt="close">
+			</button>
+			<div class="modal-work">
+				<div class="modal-work__preview">
+					<img class="modal-work__photo" src="https://placehold.it/790x780" alt="">
+				</div>
+				<div class="modal-work__content">
+					<div class="modal-work__header">
+						<h3 class="modal-work__title">Project title</h3>
+						<div class="modal-work__info">
+							category <span class="modal-work__info-divider">|</span> 2020
+						</div>
+					</div>
+					<div class="modal-work__client">
+						<div class="modal-work__client-title">Client:</div>
+						<div class="modal-work__client-company">Creative agency</div>
+					</div>
+					<div class="modal-work__text">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, ad expedita tenetur architecto eaque quo dolorum, alias autem. Explicabo, tenetur, nobis. Dolores, dolore odit, dignissimos quasi voluptate, aperiam ab cumque tempore hic nam omnis debitis amet quam dolorem aliquid illo! Consequuntur voluptate odio aliquid ab labore, voluptatum recusandae unde pariatur.
+					</div>
+					<div class="modal-work__footer">
+						<button class="modal-work__btn" type="button">
+							<img src="Images/left_arrow.svg" height="12" alt="">
+							Previous
+						</button>
+						<button class="modal-work__btn" type="button">
+							Next
+							<img src="Images/right_arrow.svg" height="12" alt="">
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="modal">
+		<div class="modal__dialog">
+			<button class="modal__close" type="button">
+				<img src="Images/close.svg" alt="close">
+			</button>
+			<div class="modal__content">
+				<h3 class="modal__title">Resume</h3>
+				<div class="text-center">
+					<a class=" btn btn--thin" href="#">Download PDF</a>
+					<a class=" btn btn--thin" href="#">Print</a>
+				</div>
+				<div class="timeline">
+					<div class="timeline__col timeline__col--left">
+						<div class="timeline__title">Experience</div>
+						<div class="timeline__item">
+							<time class="timeline__date" datetime="05-02-2020">2017 - <b>Present</b></time>
+							<h5 class="timeline__subtitle">Freelancer</h5>
+							<div class="timeline__position">Art Director</div>
+							<div class="timeline__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat iste consectetur ratione similique nesciunt laboriosam vitae quas porro, adipisci, dolorem.</div>
+						</div>
+						<div class="timeline__item">
+							<time class="timeline__date" datetime="05-02-2020">2016 - 2017</b></time>
+							<h5 class="timeline__subtitle">The Best Agency</h5>
+							<div class="timeline__position">Art Director</div>
+							<div class="timeline__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat iste consectetur ratione similique nesciunt laboriosam vitae quas porro, adipisci, dolorem.</div>
+						</div>
+						<div class="timeline__item">
+							<time class="timeline__date" datetime="05-02-2020">2014 - 2016</b></time>
+							<h5 class="timeline__subtitle">Better Agency</h5>
+							<div class="timeline__position">Senior UI/UX Designer</div>
+							<div class="timeline__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat iste consectetur ratione similique nesciunt laboriosam vitae quas porro, adipisci, dolorem.</div>
+						</div>
+						<div class="timeline__item">
+							<time class="timeline__date" datetime="05-02-2020">2012 - 2014</time>
+							<h5 class="timeline__subtitle">Good Agency</h5>
+							<div class="timeline__position">UI/UX Designer</div>
+							<div class="timeline__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat iste consectetur ratione similique nesciunt laboriosam vitae quas porro, adipisci, dolorem.</div>
+						</div>
+					</div>
+					<div class="timeline__col timeline__col--right">
+						<div class="timeline__title">Education</div>
+						<div class="timeline__item">
+							<time class="timeline__date" datetime="05-02-2020">2005 - 2010</time>
+							<h5 class="timeline__subtitle">UI/UX Designer</h5>
+							<div class="timeline__position">LA University, USA</div>
+						</div>
+						<div class="timeline__item">
+							<time class="timeline__date" datetime="05-02-2020">2002 - 2005</time>
+							<h5 class="timeline__subtitle">UI/UX Designer</h5>
+							<div class="timeline__position">LA Collage of Art, USA</div>
+						</div>
+						<div class="timeline__title">Skills</div>
+						<div class="progress-bar">
+							<div class="progress-bar__item">
+								<div class="progress-bar__left">
+									<div class="progress-bar__title">UI/UX Design</div>
+								</div>
+								<div class="progress-bar__right">
+									<div class="progress-bar__bar">
+										<div class="progress-bar__progress" style="width: 80%;"></div>
+									</div>
+								</div>
+							</div>
+							<div class="progress-bar__item">
+								<div class="progress-bar__left">
+									<div class="progress-bar__title">Ilustrator</div>
+								</div>
+								<div class="progress-bar__right">
+									<div class="progress-bar__bar">
+										<div class="progress-bar__progress" style="width: 90%;"></div>
+									</div>
+								</div>
+							</div>
+							<div class="progress-bar__item">
+								<div class="progress-bar__left">
+									<div class="progress-bar__title">Photoshop</div>
+								</div>
+								<div class="progress-bar__right">
+									<div class="progress-bar__bar">
+										<div class="progress-bar__progress" style="width: 80%;"></div>
+									</div>
+								</div>
+							</div>
+							<div class="progress-bar__item">
+								<div class="progress-bar__left">
+									<div class="progress-bar__title">Sketch</div>
+								</div>
+								<div class="progress-bar__right">
+									<div class="progress-bar__bar">
+										<div class="progress-bar__progress" style="width: 70%;"></div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="timeline__title">Awards</div>
+						<div class="timeline__item">
+							<time class="timeline__date" datetime="05-02-2020">2016</time>
+							<h5 class="timeline__subtitle">The Best App Interface</h5>
+							<div class="timeline__position">UI/UX Magazine</div>
+							<div class="timeline__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat iste consectetur ratione similique nesciunt laboriosam vitae quas porro, adipisci, dolorem.</div>
+						</div>
+					</div>
+				</div>
+				<div class="text-center">
+					<a class="btn" href="#">Hire me</a>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
