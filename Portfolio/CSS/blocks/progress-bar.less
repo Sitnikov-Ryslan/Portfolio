@@ -2,12 +2,21 @@
 
 .progress-bar {
 	margin-bottom: 2.6rem;
+	
+	@media @mobile-sm {
+		margin-bottom: 1.5rem;
+	}
 }
 
 .progress-bar__item {
 	display: flex;
 	align-items: center;
 	margin-bottom: 0.2rem;
+	
+	@media @mobile-sm {
+		flex-direction: column;
+		margin-bottom: 0.3rem;
+	}
 }
 
 .progress-bar__left {
@@ -17,10 +26,19 @@
 .progress-bar__title {
 	font-size: 0.94rem;
 	font-weight: lighter;
+	
+	@media @mobile-sm {
+		font-size: 0.7rem;
+		margin-bottom: 0.3rem;
+	}
 }
 
 .progress-bar__right {
 	padding-left: 1.2rem;
+	
+	@media @mobile-sm {
+		padding-left: 0;
+	}
 }
 
 .progress-bar__bar {

@@ -2,12 +2,27 @@
 
 .modal-work {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .modal-work__preview {
 	width: 65%;
 	position: relative;
 	overflow: hidden;
+	
+	@media @tablet {
+		width: 100%;
+		order: 1;
+		height: 680px;
+	}
+	
+	@media @mobile {
+		height: 500px;
+	}
+
+	@media @mobile-sm {
+		order: 2;
+	}
 }
 
 .modal-work__photo {
@@ -21,6 +36,19 @@
 	width: 35%;
 	padding: 3.4rem 6.6rem 1rem 1.73rem;
 	position: relative;
+	
+	@media @tablet {
+		width: 100%;
+		order: 2;
+	}
+
+	@media @mobile {
+		padding-top: 1rem;
+	}
+
+	@media @mobile-sm {
+		order: 1;
+	}
 }
 
 .modal-work__header {
@@ -68,6 +96,10 @@
 	line-height: 2;
 	font-weight: lighter;
 	margin-bottom: 8.66rem;
+	
+	@media @mobile {
+		margin-bottom: 3rem;
+	}
 }
 
 .modal-work__footer {

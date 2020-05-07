@@ -15,6 +15,10 @@
 		top: 0;
 		left: 50%;
 	}
+
+	@media @mobile {
+		margin: 2.2rem auto;
+	}
 }
 
 .timeline__col {
@@ -23,10 +27,18 @@
 	&--left {
 		text-align: right;
 		padding-right: 3.2rem;
+		
+		@media @mobile-sm {
+		padding-right: 1rem;
+		}
 	}
 
 	&--right {
 		padding-left: 3.2rem;
+		
+		@media @mobile-sm {
+		padding-left: 1rem;
+		}
 	}
 }
 
@@ -36,6 +48,14 @@
 	text-transform: uppercase;
 	font-weight: bold;
 	margin-bottom: 2.6rem;
+	
+	@media @mobile {
+		margin-bottom: 1.5rem;
+	}
+
+	@media @mobile-sm {
+		font-size: 0.8rem;
+	}
 }
 
 .timeline__item {
@@ -43,6 +63,10 @@
 	
 	&:last-child {
 		margin-bottom: 0;
+	}
+
+	@media @mobile {
+		margin-bottom: 1.5rem;
 	}
 }
 
@@ -52,6 +76,10 @@
 	font-size: 0.94rem;
 	color: @black;
 	margin-bottom: 0.8rem;
+	
+	@media @mobile-sm {
+		font-size: 0.64rem;
+	}
 }
 
 .timeline__subtitle {
@@ -59,12 +87,20 @@
 	color: @black;
 	font-weight: bold;
 	margin-bottom: 0.2rem;
+	
+	@media @mobile-sm {
+		font-size: 0.7rem;
+	}
 }
 
 .timeline__position {
 	font-size: 0.94rem;
 	color: @black;
 	font-style: italic;
+	
+	@media @mobile-sm {
+		font-size: 0.74rem;
+	}
 }
 
 .timeline__text {
@@ -73,4 +109,8 @@
 	font-weight: lighter;
 	line-height: 1.5;
 	margin-top: 0.8rem;
+	
+	@media @mobile-sm {
+		font-size: 0.6rem;
+	}
 }
